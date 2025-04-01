@@ -5,21 +5,20 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Node.js Backend API',
-      version: '1.0.0',
-      description: 'API documentation for your Node.js backend',
-      contact: {
-        name: 'Your Name',
-        url: 'https://your-website.com',
-        email: 'your-email@example.com'
+      "title": "MockAuthJs API",
+      "version": "1.0.0",
+      "description": "MockAuthJs is a Node.js backend API featuring JWT-based authentication and integrated Swagger documentation.",
+      "contact": {
+        "name": "Your Name",
+        "url": "https://your-website.com",
+        "email": "your-email@example.com"
       }
     },
     servers: [
       {
-        url: 'http://localhost:8304',
-        description: 'Development server'
+        "description": ""
       }
-    ],
+    ],    
     components: {
       securitySchemes: {
         bearerAuth: {
